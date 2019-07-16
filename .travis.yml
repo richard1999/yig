@@ -42,7 +42,7 @@ script:
 - popd
 
 before_deploy:
-  - echo "prepare package"
+  - echo "prepare package1"
   - sudo make pkg
   - sudo make image
 
